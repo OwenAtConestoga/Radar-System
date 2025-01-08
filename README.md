@@ -8,7 +8,6 @@ An Arduino-based radar system designed to detect and map objects in real time us
 
 - **Real-Time Object Detection**: Detects and measures the distance of objects in front of the radar system.
 - **Dynamic Scanning**: Mounted on a servo motor, the radar scans back and forth to cover a range of angles.
-- **Visual Display**: Displays processed data visually on a computer interface, providing real-time positional tracking and measurements.
 - **Customizable Design**: Built with modular hardware and software components for easy adaptation to other projects.
 
 ---
@@ -25,9 +24,6 @@ An Arduino-based radar system designed to detect and map objects in real time us
 3. **Data Processing**:  
    - The data is processed in real-time by the Arduino, converting distance measurements into positional information.
 
-4. **Visual Interface**:  
-   - The positional data is sent to a connected computer, where it is displayed on a radar-style interface to visualize object positions relative to the sensor.
-
 ---
 
 ## Hardware Components
@@ -43,7 +39,6 @@ An Arduino-based radar system designed to detect and map objects in real time us
 ## Software Components
 
 - **Arduino Code**: Handles servo motor control, ultrasonic sensor readings, and serial communication.
-- **Radar Visualization Script**: A Python or JavaScript program to render the radar interface on a connected computer (update this with details as you finalize it).
 
 ---
 
@@ -59,7 +54,6 @@ An Arduino-based radar system designed to detect and map objects in real time us
    - Upload the sketch to the Arduino using the Arduino IDE.
 
 3. **Run Visualization**:
-   - Use the visualization script to render the radar display on your computer.
    - Ensure the Arduino is connected via USB and configured for serial communication.
 
 ---
@@ -70,11 +64,6 @@ An Arduino-based radar system designed to detect and map objects in real time us
 2. The servo motor will start scanning the specified angular range.
 3. Observe the radar display on your computer as objects are detected in real-time.
 
----
-
-## Code
-
-> **TODO**: Add links or embed the code as you develop it. This can include the Arduino sketch and visualization scripts.
 
 ---
 
